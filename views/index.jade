@@ -2,4 +2,97 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Google Maps Simulator
+  hr
+  div(id='map')
+
+  style.
+
+    #map{
+      width:500px;
+      height:500px;
+    }
+
+  script(type='text/javascript').
+
+    var haversine = function(lat1, lon1, lat2, lon2) {
+      var deg2rad = 0.017453292519943295; // === Math.PI / 180
+      var cos = Math.cos;
+      lat1 *= deg2rad;
+      lon1 *= deg2rad;
+      lat2 *= deg2rad;
+      lon2 *= deg2rad;
+      var diam = 12742; // Diameter of the earth in km (2 * 6371)
+      var dLat = lat2 - lat1;
+      var dLon = lon2 - lon1;
+      var a = ( (1 - cos(dLat)) + (1 - cos(dLon)) * cos(lat1) * cos(lat2)) / 2;
+
+      return diam * Math.asin(Math.sqrt(a)) * 1000;
+    };
+
+    function initMap(){
+
+      // Recupera a locazicao do IP
+      if('geolocation' in navigator){
+
+        var directionsService = new google.maps.DirectionsService();
+        var directionsDisplay = new google.maps.DirectionsRenderer();
+        
+        console.log(directionsService)
+        console.log(directionsDisplay)
+
+        navigator.geolocation.getCurrentPosition(function(position){
+
+          var lat = position.coords.latitude
+          var lng = position.coords.longitude
+
+          console.log(lat, lng)
+
+          // Carrega o mapa
+          var location = {lat: lat, lng: lng}
+
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: location
+          });
+
+          directionsService.setMap(map)
+
+          var marker = new google.maps.Marker({
+            position: location,
+            map: map
+          })
+
+          google.maps.event.addListener(map, 'click', function(event){
+
+            console.log('Item Click')
+            var _lat = event.latLng.lat()
+            var _lng = event.latLng.lng()
+            console.log(_lat, _lng)
+
+
+
+          })
+
+        }, function(err){
+
+          console.log(err)
+
+        }, {enableHighAccuracy: true, maximumAge: 30000, timeout: 30000})
+      }
+      
+      //- var uluru = {lat: -25.363, lng: 131.044};
+      //- var location = {lat: -23.75672, lng: -46.60554}
+
+      //- var map = new google.maps.Map(document.getElementById('map'), {
+      //-   zoom: 4,
+      //-   center: location
+      //- });
+      //- var marker = new google.maps.Marker({
+      //-   position: location,
+      //-   map: map
+      //- })
+
+    }
+
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHOKHrWAgeBfuI5OtuW9MQN1TAvdc_fZc&callback=initMap" async defer)
