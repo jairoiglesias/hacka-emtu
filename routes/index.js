@@ -130,7 +130,7 @@ module.exports = function(app){
   app.post('/get_keepers', (req, res) => {
 
 
-
+    
   })
 
   // DUMMY
@@ -153,24 +153,56 @@ module.exports = function(app){
 
     var dummy = {
       "data": [{
-        "type": "walk",
-        "points": [
-          {
+        "pois": [{
+          "type": "keeper",
+          "name": "Jairo Iglesias",
+          "point": {
             "latitude": -22.814465,
             "longitude": -47.05926
-          },
-          {
-             "latitude": -22.8144996,
-            "longitude": -47.0590182
-          },
-          {
-           "latitude": -22.8173196,
-            "longitude": -47.0668999
           }
-        ]
+        }, {
+          "type": "keeper",
+          "name": "Jairo Iglesias",
+          "point": {
+            "latitude": -22.814465,
+            "longitude": -47.05926
+          }
+        }],
+        "route": [{
+          "type": "walk",
+          "points": [{
+              "latitude": -22.814465,
+              "longitude": -47.05926
+            },
+            {
+              "latitude": -22.8144996,
+              "longitude": -47.0590182
+            },
+            {
+              "latitude": -22.8173196,
+              "longitude": -47.0668999
+            }
+          ]
+        },
+        {
+          "type": "bicycle",
+          "points": [{
+              "latitude": -22.814565,
+              "longitude": -47.05926
+            },
+            {
+              "latitude": -22.8145096,
+              "longitude": -47.0590182
+            },
+            {
+              "latitude": -22.8173296,
+              "longitude": -47.0668999
+            }
+          ]
+        }]
       }]
     }
-
+    
     res.send(dummy)
 
   })
