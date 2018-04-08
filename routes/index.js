@@ -151,25 +151,25 @@ module.exports = function(app){
 
 
 
-    var dummy = {
-      "data": [{
-        "pois": [{
-          "type": "keeper",
-          "name": "Jairo Iglesias",
-          "point": {
-            "latitude": -22.814465,
-            "longitude": -47.05926
-          }
-        }, {
-          "type": "keeper",
-          "name": "Jairo Iglesias",
-          "point": {
-            "latitude": -22.814465,
-            "longitude": -47.05926
-          }
-        }],
-        "route": [{
+    var dummy ={
+      "data": [
+        {
           "type": "walk",
+          "pois": [{
+            "type": "keeper",
+            "name": "Jairo Iglesias",
+            "point": {
+              "latitude": -22.814465,
+              "longitude": -47.05926
+            }
+          }, {
+            "type": "keeper",
+            "name": "Jairo Iglesias",
+            "point": {
+              "latitude": -22.814465,
+              "longitude": -47.05926
+            }
+          }],
           "points": [{
               "latitude": -22.814465,
               "longitude": -47.05926
@@ -186,6 +186,21 @@ module.exports = function(app){
         },
         {
           "type": "bicycle",
+          "pois": [{
+            "type": "keeper",
+            "name": "Jairo Iglesias",
+            "point": {
+              "latitude": -22.814465,
+              "longitude": -47.05926
+            }
+          }, {
+            "type": "keeper",
+            "name": "Jairo Iglesias",
+            "point": {
+              "latitude": -22.814465,
+              "longitude": -47.05926
+            }
+          }],
           "points": [{
               "latitude": -22.814565,
               "longitude": -47.05926
@@ -199,10 +214,10 @@ module.exports = function(app){
               "longitude": -47.0668999
             }
           ]
-        }]
-      }]
+        }
+      ]
     }
-    
+
     res.send(dummy)
 
   })
