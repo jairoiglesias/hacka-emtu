@@ -39,16 +39,12 @@ block content
 
         navigator.geolocation.getCurrentPosition(function(position){
 
-          var directionsService = new google.maps.DirectionsService()
-          var directionsDisplay = new google.maps.DirectionsRenderer()
-
-          console.log(directionsService)
-          console.log(directionsDisplay)
-
           var lat = position.coords.latitude
           var lng = position.coords.longitude
 
+          console.log('posicao do usuario:')
           console.log(lat, lng)
+          console.log('==========================')
 
           // Carrega o mapa
           var location = {lat: lat, lng: lng}
@@ -57,8 +53,6 @@ block content
             zoom: 14,
             center: location
           });
-
-          directionsService.setMap(map)
 
           var marker = new google.maps.Marker({
             position: location,
@@ -72,8 +66,6 @@ block content
             var _lng = event.latLng.lng()
             console.log(_lat, _lng)
 
-
-
           })
 
         }, function(err){
@@ -82,18 +74,6 @@ block content
 
         }, {enableHighAccuracy: true, maximumAge: 30000, timeout: 30000})
       }
-      
-      //- var uluru = {lat: -25.363, lng: 131.044};
-      //- var location = {lat: -23.75672, lng: -46.60554}
-
-      //- var map = new google.maps.Map(document.getElementById('map'), {
-      //-   zoom: 4,
-      //-   center: location
-      //- });
-      //- var marker = new google.maps.Marker({
-      //-   position: location,
-      //-   map: map
-      //- })
 
     }
 
