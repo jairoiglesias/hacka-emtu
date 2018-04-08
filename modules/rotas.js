@@ -592,14 +592,14 @@ var routes = {
             "type": "bicycle",
             "pois": [{
                 "type": "keeper",
-                "name": "Jairo Iglesias",
+                "name": "keeper",
                 "point": {
                     "latitude": -22.8217565,
                     "longitude": -47.0842213
                 }
             }, {
                 "type": "keeper",
-                "name": "Jairo Iglesias",
+                "name": "keeper",
                 "point": {
                     "latitude": -22.8175062,
                     "longitude": -47.0886533
