@@ -134,22 +134,22 @@ module.exports = function(app){
     var keepers = [
       {
         url: 'images/keeper_01.jpg',
-        address: 'Rua Lorem Ipsum',
+        address: 'Av Francisco de Angelis, 458 - Campinas/SP',
         available: '8/12'
       },
       {
         url: 'images/keeper_02.jpg',
-        address: 'Rua Lorem Ipsum',
+        address: 'Residencial Parque das Araucárias, 147 - Campinas/SP',
         available: '5/8'
       },
       {
         url: 'images/keeper_03.jpg',
-        address: 'Rua Lorem Ipsum',
+        address: 'Rua Jorge Harrat, 36 - Campinas/SP',
         available: '7/11'
       },
       {
         url: 'images/keeper_04.jpg',
-        address: 'Rua Lorem Ipsum',
+        address: 'Rua Michelina Spina Samartine, 58 - Campinas/SP',
         available: '5/10'
       }
     ]
@@ -183,7 +183,9 @@ module.exports = function(app){
     Object.keys(data).forEach(function(value, index){
 
       var temp = data[index]
-      _endereco= temp.endereco
+      var _endereco= temp.endereco
+
+      console.log(_endereco)
 
       if(_endereco != undefined){
 

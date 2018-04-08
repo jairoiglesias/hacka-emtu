@@ -2,7 +2,7 @@
 var routes = {
       "data": [
       {
-        "endereco": "avenida",
+        "endereco": "rua",
         "type": "bicycle",
         "pois": [{
             "type": "keeper",
