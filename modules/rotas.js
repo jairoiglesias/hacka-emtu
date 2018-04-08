@@ -22,7 +22,7 @@ var routes = {
         "points": [
             {
                 longitude: -47.07572,
-                latidude: -22.8249577,
+                latitude: -22.8249577,
                 type: "waypoint",
                 dist: {
                     val: 350,
@@ -36,67 +36,67 @@ var routes = {
             },
             {
                 longitude: -47.07588,
-                latidude: -22.82497
+                latitude: -22.82497
             },
             {
                 longitude: -47.0763,
-                latidude: -22.825
+                latitude: -22.825
             },
             {
                 longitude: -47.07661,
-                latidude: -22.82502
+                latitude: -22.82502
             },
             {
                 longitude: -47.07669,
-                latidude: -22.82502
+                latitude: -22.82502
             },
             {
                 longitude: -47.0768,
-                latidude: -22.82502
+                latitude: -22.82502
             },
             {
                 longitude: -47.07699,
-                latidude: -22.825
+                latitude: -22.825
             },
             {
                 longitude: -47.07718,
-                latidude: -22.82498
+                latitude: -22.82498
             },
             {
                 longitude: -47.07804,
-                latidude: -22.82488
+                latitude: -22.82488
             },
             {
                 longitude: -47.07811,
-                latidude: -22.82487
+                latitude: -22.82487
             },
             {
                 longitude: -47.07817,
-                latidude: -22.82485
+                latitude: -22.82485
             },
             {
                 longitude: -47.07823,
-                latidude: -22.82483
+                latitude: -22.82483
             },
             {
                 longitude: -47.07823,
-                latidude: -22.82482
+                latitude: -22.82482
             },
             {
                 longitude: -47.07829,
-                latidude: -22.82478
+                latitude: -22.82478
             },
             {
                 longitude: -47.07867,
-                latidude: -22.82437
+                latitude: -22.82437
             },
             {
                 longitude: -47.07882,
-                latidude: -22.82421
+                latitude: -22.82421
             },
             {
                 longitude: -47.0788171,
-                latidude: -22.8242135,
+                latitude: -22.8242135,
                 type: "waypoint",
                 polyline: "hzhjCraj~Gh@h@r@x@TT",
                 dir: "Turn <b>left</b> onto <b>Av. Professor Atílio Martini</b>",
@@ -114,19 +114,19 @@ var routes = {
             },
             {
                 longitude: -47.07903,
-                latidude: -22.82442
+                latitude: -22.82442
             },
             {
                 longitude: -47.07932,
-                latidude: -22.82468
+                latitude: -22.82468
             },
             {
                 longitude: -47.07943,
-                latidude: -22.82479
+                latitude: -22.82479
             },
             {
                 longitude: -47.0794333,
-                latidude: -22.8247888,
+                latitude: -22.8247888,
                 type: "waypoint",
                 polyline: "|}hjClej~GELAFCB",
                 dir: "Turn <b>right</b> toward <b>Av. Professor Atílio Martini</b>",
@@ -144,19 +144,19 @@ var routes = {
             },
             {
                 longitude: -47.0795,
-                latidude: -22.82476
+                latitude: -22.82476
             },
             {
                 longitude: -47.07954,
-                latidude: -22.82475
+                latitude: -22.82475
             },
             {
                 longitude: -47.07956,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.0795556,
-                latidude: -22.824732,
+                latitude: -22.824732,
                 type: "waypoint",
                 polyline: "p}hjCffj~GB@@D@H",
                 dir: "Turn <b>left</b> toward <b>Av. Professor Atílio Martini</b>",
@@ -174,19 +174,19 @@ var routes = {
             },
             {
                 longitude: -47.07957,
-                latidude: -22.82475
+                latitude: -22.82475
             },
             {
                 longitude: -47.0796,
-                latidude: -22.82476
+                latitude: -22.82476
             },
             {
                 longitude: -47.07965,
-                latidude: -22.82477
+                latitude: -22.82477
             },
             {
                 longitude: -47.0796464,
-                latidude: -22.8247717,
+                latitude: -22.8247717,
                 type: "waypoint",
                 polyline: "x}hjCxfj~GA?C@A@CBGD",
                 dir: "Turn <b>right</b> toward <b>Av. Professor Atílio Martini</b>",
@@ -204,27 +204,27 @@ var routes = {
             },
             {
                 longitude: -47.07965,
-                latidude: -22.82476
+                latitude: -22.82476
             },
             {
                 longitude: -47.07966,
-                latidude: -22.82474
+                latitude: -22.82474
             },
             {
                 longitude: -47.07967,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.07969,
-                latidude: -22.82471
+                latitude: -22.82471
             },
             {
                 longitude: -47.07972,
-                latidude: -22.82467
+                latitude: -22.82467
             },
             {
                 longitude: -47.0797219,
-                latidude: -22.8246695,
+                latitude: -22.8246695,
                 type: "waypoint",
                 polyline: "d}hjCfgj~GBP@JDR?J?D?FD\DX`@dA",
                 dir: "Turn <b>left</b> onto <b>Av. Professor Atílio Martini</b>",
@@ -242,43 +242,43 @@ var routes = {
             },
             {
                 longitude: -47.07981,
-                latidude: -22.82469
+                latitude: -22.82469
             },
             {
                 longitude: -47.07987,
-                latidude: -22.8247
+                latitude: -22.8247
             },
             {
                 longitude: -47.07997,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.08003,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.08006,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.0801,
-                latidude: -22.82473
+                latitude: -22.82473
             },
             {
                 longitude: -47.08025,
-                latidude: -22.82476
+                latitude: -22.82476
             },
             {
                 longitude: -47.08038,
-                latidude: -22.82479
+                latitude: -22.82479
             },
             {
                 longitude: -47.08073,
-                latidude: -22.82496
+                latitude: -22.82496
             },
             {
                 longitude: -47.0807259,
-                latidude: -22.8249568,
+                latitude: -22.8249568,
                 type: "waypoint",
                 polyline: "~~hjCpmj~GMB{B~@c@Nc@R",
                 dir: "Turn <b>right</b> onto <b>Rua Manoel Antunes Novo</b>",
@@ -296,23 +296,23 @@ var routes = {
             },
             {
                 longitude: -47.08075,
-                latidude: -22.82489
+                latitude: -22.82489
             },
             {
                 longitude: -47.08107,
-                latidude: -22.82427
+                latitude: -22.82427
             },
             {
                 longitude: -47.08115,
-                latidude: -22.82409
+                latitude: -22.82409
             },
             {
                 longitude: -47.08125,
-                latidude: -22.82391
+                latitude: -22.82391
             },
             {
                 longitude: -47.0812453,
-                latidude: -22.8239118,
+                latitude: -22.8239118,
                 type: "waypoint",
                 polyline: "lxhjCxpj~Gh@j@^|ABJJb@",
                 dir: "Turn <b>left</b> onto <b>R. Josepha Antônia Maria Picelli</b>",
@@ -330,23 +330,23 @@ var routes = {
             },
             {
                 longitude: -47.08147,
-                latidude: -22.82412
+                latitude: -22.82412
             },
             {
                 longitude: -47.08194,
-                latidude: -22.82428
+                latitude: -22.82428
             },
             {
                 longitude: -47.082,
-                latidude: -22.8243
+                latitude: -22.8243
             },
             {
                 longitude: -47.08218,
-                latidude: -22.82436
+                latitude: -22.82436
             },
             {
                 longitude: -47.0821812,
-                latidude: -22.8243597,
+                latitude: -22.8243597,
                 type: "waypoint",
                 polyline: "f{hjCrvj~GWHyC|@sBf@KBIDIDA@GFIJEHKRGTETET?BCPA^A\@\@^D\?B",
                 dir: "Turn <b>right</b> onto <b>Rua Jerônimo Páttaro</b>",
@@ -364,95 +364,95 @@ var routes = {
             },
             {
                 longitude: -47.08223,
-                latidude: -22.82424
+                latitude: -22.82424
             },
             {
                 longitude: -47.08254,
-                latidude: -22.82347
+                latitude: -22.82347
             },
             {
                 longitude: -47.08274,
-                latidude: -22.82289
+                latitude: -22.82289
             },
             {
                 longitude: -47.08276,
-                latidude: -22.82283
+                latitude: -22.82283
             },
             {
                 longitude: -47.08279,
-                latidude: -22.82278
+                latitude: -22.82278
             },
             {
                 longitude: -47.08282,
-                latidude: -22.82273
+                latitude: -22.82273
             },
             {
                 longitude: -47.08283,
-                latidude: -22.82272
+                latitude: -22.82272
             },
             {
                 longitude: -47.08287,
-                latidude: -22.82268
+                latitude: -22.82268
             },
             {
                 longitude: -47.08293,
-                latidude: -22.82263
+                latitude: -22.82263
             },
             {
                 longitude: -47.08298,
-                latidude: -22.8226
+                latitude: -22.8226
             },
             {
                 longitude: -47.08308,
-                latidude: -22.82254
+                latitude: -22.82254
             },
             {
                 longitude: -47.08319,
-                latidude: -22.8225
+                latitude: -22.8225
             },
             {
                 longitude: -47.0833,
-                latidude: -22.82247
+                latitude: -22.82247
             },
             {
                 longitude: -47.08341,
-                latidude: -22.82244
+                latitude: -22.82244
             },
             {
                 longitude: -47.08343,
-                latidude: -22.82244
+                latitude: -22.82244
             },
             {
                 longitude: -47.08352,
-                latidude: -22.82242
+                latitude: -22.82242
             },
             {
                 longitude: -47.08368,
-                latidude: -22.82241
+                latitude: -22.82241
             },
             {
                 longitude: -47.08383,
-                latidude: -22.8224
+                latitude: -22.8224
             },
             {
                 longitude: -47.08398,
-                latidude: -22.82241
+                latitude: -22.82241
             },
             {
                 longitude: -47.08414,
-                latidude: -22.82242
+                latitude: -22.82242
             },
             {
                 longitude: -47.08429,
-                latidude: -22.82245
+                latitude: -22.82245
             },
             {
                 longitude: -47.08431,
-                latidude: -22.82245
+                latitude: -22.82245
             },
             {
                 longitude: -47.0843089,
-                latidude: -22.8224487,
+                latitude: -22.8224487,
                 type: "waypoint",
                 step: "turn-right",
                 nextturn: "turn-right",
@@ -468,11 +468,11 @@ var routes = {
             },
             {
                 longitude: -47.08433,
-                latidude: -22.82174
+                latitude: -22.82174
             },
             {
                 longitude: -47.0843323,
-                latidude: -22.8217417,
+                latitude: -22.8217417,
                 type: "waypoint"
             }
         ]
