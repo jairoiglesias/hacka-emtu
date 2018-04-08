@@ -151,7 +151,7 @@ module.exports = function(app){
 
 
 
-    var dummy = {
+    var dummy = [{
       "data": {
         "type": "walk",
         "points": [
@@ -169,7 +169,7 @@ module.exports = function(app){
           }
         ]
       }
-    }
+    }]
 
     res.send(dummy)
 
