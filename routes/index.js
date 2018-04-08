@@ -90,17 +90,35 @@ module.exports = function(app){
 
   app.post('/get_dummy', (req, res) => {
 
-    var dummy = []
+    // var dummy = []
 
-    dummy.push(
-    {
-      lat: -22.818411,
-      lng: -47.093903,
-      trajetos:[
-        {tipo: 'onibus', lat1: -22.817907, lng1: -47.094506, lat2: -22.816548, lng2: -47.096714},
-        {tipo: 'keeper', lat1: -22.815926, lng1: -47.097411, lat2: -22.815899, lng2: -47.095365},
+    // dummy.push(
+    // {
+    //   lat: -22.818411,
+    //   lng: -47.093903,
+    //   trajetos:[
+    //     {tipo: 'onibus', lat1: -22.817907, lng1: -47.094506, lat2: -22.816548, lng2: -47.096714},
+    //     {tipo: 'keeper', lat1: -22.815926, lng1: -47.097411, lat2: -22.815899, lng2: -47.095365},
+    //   ]
+    // })
+
+    var dummy = {
+      "type": "walk",
+      "points": [
+        {
+          "latitude": -22.814465,
+          "longitude": -47.05926
+        },
+        {
+          "latitude": -22.8173196,
+          "longitude": -47.0668999
+        },
+        {
+          "latitude": -22.8144996,
+          "longitude": -47.0590182
+        }
       ]
-    })
+    }
 
     res.send(dummy)
 
@@ -110,10 +128,17 @@ module.exports = function(app){
 
     // Recupera os parametros de lat/lng do usuario
     
-    var lat1 = req.body.lat
-    var lng1 = req.body.lng
+    var lat1 = req.body.lat1
+    var lng1 = req.body.lng1
+    var lat2 = req.body.lat2
+    var lng2 = req.body.lng2
 
     // DEBUG (R. Luís Vicentim Sobrinho, 563 - Barão Geraldo, Campinas - SP, 13084-030)
+
+    /*
+      ### Recupera os possiveis STOPS de lat1 lng1
+    
+    */
 
     if(lat1 == undefined){
       var lat1 = -22.818411
@@ -128,7 +153,7 @@ module.exports = function(app){
     var sql = "SELECT * FROM stops"
     conn.query(sql, function(err, rows, fields){
 
-      var promiseLocations = new Promise(function(resolve, reject){
+      var promiseLocations1 = new Promise(function(resolve, reject){
       
         var tam = rows.length
         var locations = []
@@ -161,8 +186,12 @@ module.exports = function(app){
 
       })
 
-      promiseLocations.then(function(locations){
+      promiseLocations1.then(function(locations){
+
+
         res.send(locations)
+
+
       })
 
     })
