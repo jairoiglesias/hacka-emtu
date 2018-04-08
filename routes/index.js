@@ -1,6 +1,53 @@
 
 module.exports = function(app){
 
+  var buscaStop = function(lat, lng){
+
+    return new Promise(function(resolve, reject){
+
+      var conn = require('./../libs/connectdb.js')()
+
+      var sql = "SELECT * FROM stops"
+
+      conn.query(sql, function(err, rows, fields){
+        
+        var tam = rows.length
+        var locations = []
+
+        rows.forEach(function(value, index) {
+
+          var lat2 = value.stop_lat
+          var lng2 = value.stop_lon
+
+          // Calcula a distancia do endereço do usuario com o Stop atual
+          var distance = getDistanceV2(lat1, lng1, lat2, lng2, 'K')
+          // console.log('distance: ' + distance)
+
+          if(distance <= 0.5){
+            
+            console.log(lat1, lng1)
+            console.log(lat2, lng2)
+            console.log('distance: ' + distance)
+            console.log(value)
+
+            locations.push(value)
+
+          }
+
+          if(index == (tam - 1)){
+            resolve(locations)
+          }
+
+        })
+
+
+      })
+
+    })
+
+  }
+
+
   // TESTE 01
 
   var haversine = function(lat1, lon1, lat2, lon2) {
@@ -88,7 +135,7 @@ module.exports = function(app){
 
   // DUMMY
 
-  app.post('/get_dummy', (req, res) => {
+  app.get('/get_dummy', (req, res) => {
 
     // var dummy = []
 
@@ -102,7 +149,7 @@ module.exports = function(app){
     //   ]
     // })
 
-    
+
 
     var dummy = {
       "type": "walk",
@@ -147,54 +194,9 @@ module.exports = function(app){
       var lng1 = -47.093903
     }
 
-    console.log('Posicao usuario:')
-    console.log(lat1, lng1)
+    buscaStop(lat1, lng1).then(function(locations){
 
-    var conn = require('./../libs/connectdb.js')()
-
-    var sql = "SELECT * FROM stops"
-    conn.query(sql, function(err, rows, fields){
-
-      var promiseLocations1 = new Promise(function(resolve, reject){
-      
-        var tam = rows.length
-        var locations = []
-
-        rows.forEach(function(value, index) {
-
-          var lat2 = value.stop_lat
-          var lng2 = value.stop_lon
-
-          // Calcula a distancia do endereço do usuario com o Stop atual
-          var distance = getDistanceV2(lat1, lng1, lat2, lng2, 'K')
-          // console.log('distance: ' + distance)
-
-          if(distance <= 0.5){
-            
-            console.log(lat1, lng1)
-            console.log(lat2, lng2)
-            console.log('distance: ' + distance)
-            console.log(value)
-
-            locations.push(value)
-
-          }
-
-          if(index == (tam - 1)){
-            resolve(locations)
-          }
-
-        })
-
-      })
-
-      promiseLocations1.then(function(locations){
-
-
-        res.send(locations)
-
-
-      })
+      res.send(locations)
 
     })
 
