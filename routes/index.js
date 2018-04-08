@@ -23,1384 +23,1384 @@ module.exports = function(app){
           }],
           "points": [
             {
-      longitude: -47.0587654,
-      latitude: -22.8142571,
-      type: "waypoint",
-      polyline: "b|fjChdf~GAAA?A?AAA?A?A@A?A?A@A?A?A@A@A@A@A@?@?@A@?@?@A@?@?@?@?@?@?@@??@?@@@?@",
-      dir: "Head <b>north</b> toward <b>Av. Alan Turing</b>",
-      dist: {
-      val: 38,
-      txt: "38 m",
-      total: 38
-      },
-      timeto: {
-      val: 20,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81425
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81424
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81423
-      },
-      {
-      longitude: -47.05875,
-      latitude: -22.81422
-      },
-      {
-      longitude: -47.05875,
-      latitude: -22.81421
-      },
-      {
-      longitude: -47.05875,
-      latitude: -22.8142
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81419
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81418
-      },
-      {
-      longitude: -47.05876,
-      latitude: -22.81417
-      },
-      {
-      longitude: -47.05877,
-      latitude: -22.81416
-      },
-      {
-      longitude: -47.05877,
-      latitude: -22.81415
-      },
-      {
-      longitude: -47.05877,
-      latitude: -22.81414
-      },
-      {
-      longitude: -47.05878,
-      latitude: -22.81413
-      },
-      {
-      longitude: -47.05879,
-      latitude: -22.81412
-      },
-      {
-      longitude: -47.0588,
-      latitude: -22.81411
-      },
-      {
-      longitude: -47.05881,
-      latitude: -22.8141
-      },
-      {
-      longitude: -47.05882,
-      latitude: -22.81409
-      },
-      {
-      longitude: -47.05883,
-      latitude: -22.81409
-      },
-      {
-      longitude: -47.05884,
-      latitude: -22.81409
-      },
-      {
-      longitude: -47.05885,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05886,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05887,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05888,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05889,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.0589,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05891,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05892,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05893,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05894,
-      latitude: -22.81407
-      },
-      {
-      longitude: -47.05894,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05895,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05896,
-      latitude: -22.81408
-      },
-      {
-      longitude: -47.05897,
-      latitude: -22.81409
-      },
-      {
-      longitude: -47.05898,
-      latitude: -22.81409
-      },
-      {
-      longitude: -47.0589812,
-      latitude: -22.8140904,
-      type: "waypoint",
-      polyline: "`{fjCref~GMXITQb@Od@K\Kp@CRARADKnAEd@]zDk@jFa@fEARAV?HAHAH?Ru@|GCRCTCT?T?XBN?P@H@J",
-      dir: "Turn <b>right</b> onto <b>Av. Alan Turing</b>",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 809,
-      txt: "0.8 km",
-      total: 847
-      },
-      timeto: {
-      val: 137,
-      txt: "2 mins"
-      }
-      },
-      {
-      longitude: -47.05911,
-      latitude: -22.81402
-      },
-      {
-      longitude: -47.05922,
-      latitude: -22.81397
-      },
-      {
-      longitude: -47.0594,
-      latitude: -22.81388
-      },
-      {
-      longitude: -47.05959,
-      latitude: -22.8138
-      },
-      {
-      longitude: -47.05974,
-      latitude: -22.81374
-      },
-      {
-      longitude: -47.05999,
-      latitude: -22.81368
-      },
-      {
-      longitude: -47.06009,
-      latitude: -22.81366
-      },
-      {
-      longitude: -47.06019,
-      latitude: -22.81365
-      },
-      {
-      longitude: -47.06022,
-      latitude: -22.81364
-      },
-      {
-      longitude: -47.06062,
-      latitude: -22.81358
-      },
-      {
-      longitude: -47.06081,
-      latitude: -22.81355
-      },
-      {
-      longitude: -47.06175,
-      latitude: -22.8134
-      },
-      {
-      longitude: -47.06293,
-      latitude: -22.81318
-      },
-      {
-      longitude: -47.06393,
-      latitude: -22.81301
-      },
-      {
-      longitude: -47.06403,
-      latitude: -22.813
-      },
-      {
-      longitude: -47.06415,
-      latitude: -22.81299
-      },
-      {
-      longitude: -47.0642,
-      latitude: -22.81299
-      },
-      {
-      longitude: -47.06425,
-      latitude: -22.81298
-      },
-      {
-      longitude: -47.0643,
-      latitude: -22.81297
-      },
-      {
-      longitude: -47.0644,
-      latitude: -22.81297
-      },
-      {
-      longitude: -47.06583,
-      latitude: -22.8127
-      },
-      {
-      longitude: -47.06593,
-      latitude: -22.81268
-      },
-      {
-      longitude: -47.06604,
-      latitude: -22.81266
-      },
-      {
-      longitude: -47.06615,
-      latitude: -22.81264
-      },
-      {
-      longitude: -47.06626,
-      latitude: -22.81264
-      },
-      {
-      longitude: -47.06639,
-      latitude: -22.81264
-      },
-      {
-      longitude: -47.06647,
-      latitude: -22.81266
-      },
-      {
-      longitude: -47.06656,
-      latitude: -22.81266
-      },
-      {
-      longitude: -47.06661,
-      latitude: -22.81267
-      },
-      {
-      longitude: -47.06667,
-      latitude: -22.81268
-      },
-      {
-      longitude: -47.066672,
-      latitude: -22.8126792,
-      type: "waypoint",
-      dist: {
-      val: 1033,
-      txt: "1.0 km",
-      total: 1880
-      },
-      timeto: {
-      val: 156,
-      txt: "3 mins"
-      }
-      },
-      {
-      longitude: -47.06685,
-      latitude: -22.81263
-      },
-      {
-      longitude: -47.06695,
-      latitude: -22.81261
-      },
-      {
-      longitude: -47.06697,
-      latitude: -22.81261
-      },
-      {
-      longitude: -47.06709,
-      latitude: -22.81259
-      },
-      {
-      longitude: -47.06719,
-      latitude: -22.81257
-      },
-      {
-      longitude: -47.06733,
-      latitude: -22.81256
-      },
-      {
-      longitude: -47.06743,
-      latitude: -22.81255
-      },
-      {
-      longitude: -47.06753,
-      latitude: -22.81255
-      },
-      {
-      longitude: -47.06773,
-      latitude: -22.81255
-      },
-      {
-      longitude: -47.06784,
-      latitude: -22.81255
-      },
-      {
-      longitude: -47.06795,
-      latitude: -22.81256
-      },
-      {
-      longitude: -47.068,
-      latitude: -22.81256
-      },
-      {
-      longitude: -47.06817,
-      latitude: -22.81259
-      },
-      {
-      longitude: -47.06835,
-      latitude: -22.81262
-      },
-      {
-      longitude: -47.06852,
-      latitude: -22.81266
-      },
-      {
-      longitude: -47.06855,
-      latitude: -22.81267
-      },
-      {
-      longitude: -47.06884,
-      latitude: -22.81276
-      },
-      {
-      longitude: -47.0693,
-      latitude: -22.81294
-      },
-      {
-      longitude: -47.06977,
-      latitude: -22.81311
-      },
-      {
-      longitude: -47.0698,
-      latitude: -22.81312
-      },
-      {
-      longitude: -47.07005,
-      latitude: -22.81321
-      },
-      {
-      longitude: -47.07022,
-      latitude: -22.81328
-      },
-      {
-      longitude: -47.07039,
-      latitude: -22.81335
-      },
-      {
-      longitude: -47.07055,
-      latitude: -22.81344
-      },
-      {
-      longitude: -47.07081,
-      latitude: -22.81359
-      },
-      {
-      longitude: -47.07089,
-      latitude: -22.81365
-      },
-      {
-      longitude: -47.07096,
-      latitude: -22.8137
-      },
-      {
-      longitude: -47.07103,
-      latitude: -22.81377
-      },
-      {
-      longitude: -47.0711,
-      latitude: -22.81384
-      },
-      {
-      longitude: -47.0711,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07111,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07112,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07113,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07114,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07115,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07116,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07117,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07118,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07119,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.0712,
-      latitude: -22.81382
-      },
-      {
-      longitude: -47.07121,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07122,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07123,
-      latitude: -22.81383
-      },
-      {
-      longitude: -47.07123,
-      latitude: -22.81384
-      },
-      {
-      longitude: -47.07124,
-      latitude: -22.81384
-      },
-      {
-      longitude: -47.07124,
-      latitude: -22.81385
-      },
-      {
-      longitude: -47.07132,
-      latitude: -22.81386
-      },
-      {
-      longitude: -47.07134,
-      latitude: -22.81387
-      },
-      {
-      longitude: -47.07136,
-      latitude: -22.81388
-      },
-      {
-      longitude: -47.07138,
-      latitude: -22.81388
-      },
-      {
-      longitude: -47.07139,
-      latitude: -22.81389
-      },
-      {
-      longitude: -47.0714,
-      latitude: -22.8139
-      },
-      {
-      longitude: -47.07172,
-      latitude: -22.81414
-      },
-      {
-      longitude: -47.07197,
-      latitude: -22.81435
-      },
-      {
-      longitude: -47.07209,
-      latitude: -22.81447
-      },
-      {
-      longitude: -47.0722,
-      latitude: -22.81459
-      },
-      {
-      longitude: -47.0723,
-      latitude: -22.81472
-      },
-      {
-      longitude: -47.07238,
-      latitude: -22.81483
-      },
-      {
-      longitude: -47.0724,
-      latitude: -22.81486
-      },
-      {
-      longitude: -47.07248,
-      latitude: -22.815
-      },
-      {
-      longitude: -47.07256,
-      latitude: -22.81516
-      },
-      {
-      longitude: -47.07263,
-      latitude: -22.81532
-      },
-      {
-      longitude: -47.07268,
-      latitude: -22.81549
-      },
-      {
-      longitude: -47.07273,
-      latitude: -22.81566
-      },
-      {
-      longitude: -47.07277,
-      latitude: -22.81583
-      },
-      {
-      longitude: -47.07279,
-      latitude: -22.81601
-      },
-      {
-      longitude: -47.07281,
-      latitude: -22.81619
-      },
-      {
-      longitude: -47.07282,
-      latitude: -22.81637
-      },
-      {
-      longitude: -47.07282,
-      latitude: -22.81656
-      },
-      {
-      longitude: -47.07281,
-      latitude: -22.81674
-      },
-      {
-      longitude: -47.0728,
-      latitude: -22.81684
-      },
-      {
-      longitude: -47.07277,
-      latitude: -22.81717
-      },
-      {
-      longitude: -47.07276,
-      latitude: -22.81727
-      },
-      {
-      longitude: -47.07272,
-      latitude: -22.81761
-      },
-      {
-      longitude: -47.07271,
-      latitude: -22.81775
-      },
-      {
-      longitude: -47.0727,
-      latitude: -22.81783
-      },
-      {
-      longitude: -47.07266,
-      latitude: -22.81803
-      },
-      {
-      longitude: -47.0726605,
-      latitude: -22.8180312,
-      type: "waypoint",
-      polyline: "tsgjCb{h~G?@@B?@@B?@@@?B@@?@@@?@@@@@?@@@@@@@B@@@B?@@B@@?B@b@f@^^rAxAFFZ\Z^TTTTn@n@n@r@n@p@n@n@p@p@n@p@z@`Ab@j@tArAJLNNzA`Bz@bADDDDjApAtBtBFFZV\^zAbBDJBHBP@J",
-      dir: "At <b>Praça Henfil</b>, take the <b>2nd</b> exit onto <b>Av. Professor Atílio Martini</b> heading to <b>Barão Geraldo</b>",
-      step: "roundabout-right",
-      nextturn: "roundabout-right",
-      dist: {
-      val: 1053,
-      txt: "1.1 km",
-      total: 2933
-      },
-      timeto: {
-      val: 156,
-      txt: "3 mins"
-      }
-      },
-      {
-      longitude: -47.07267,
-      latitude: -22.81803
-      },
-      {
-      longitude: -47.07269,
-      latitude: -22.81804
-      },
-      {
-      longitude: -47.0727,
-      latitude: -22.81804
-      },
-      {
-      longitude: -47.07272,
-      latitude: -22.81805
-      },
-      {
-      longitude: -47.07273,
-      latitude: -22.81805
-      },
-      {
-      longitude: -47.07274,
-      latitude: -22.81806
-      },
-      {
-      longitude: -47.07276,
-      latitude: -22.81806
-      },
-      {
-      longitude: -47.07277,
-      latitude: -22.81807
-      },
-      {
-      longitude: -47.07278,
-      latitude: -22.81807
-      },
-      {
-      longitude: -47.07279,
-      latitude: -22.81808
-      },
-      {
-      longitude: -47.0728,
-      latitude: -22.81808
-      },
-      {
-      longitude: -47.07281,
-      latitude: -22.81809
-      },
-      {
-      longitude: -47.07282,
-      latitude: -22.8181
-      },
-      {
-      longitude: -47.07283,
-      latitude: -22.8181
-      },
-      {
-      longitude: -47.07284,
-      latitude: -22.81811
-      },
-      {
-      longitude: -47.07285,
-      latitude: -22.81812
-      },
-      {
-      longitude: -47.07286,
-      latitude: -22.81813
-      },
-      {
-      longitude: -47.07287,
-      latitude: -22.81815
-      },
-      {
-      longitude: -47.07288,
-      latitude: -22.81816
-      },
-      {
-      longitude: -47.07288,
-      latitude: -22.81818
-      },
-      {
-      longitude: -47.07289,
-      latitude: -22.81819
-      },
-      {
-      longitude: -47.0729,
-      latitude: -22.81821
-      },
-      {
-      longitude: -47.0729,
-      latitude: -22.81822
-      },
-      {
-      longitude: -47.07291,
-      latitude: -22.81824
-      },
-      {
-      longitude: -47.07311,
-      latitude: -22.81842
-      },
-      {
-      longitude: -47.07327,
-      latitude: -22.81858
-      },
-      {
-      longitude: -47.07372,
-      latitude: -22.819
-      },
-      {
-      longitude: -47.07376,
-      latitude: -22.81904
-      },
-      {
-      longitude: -47.07391,
-      latitude: -22.81918
-      },
-      {
-      longitude: -47.07407,
-      latitude: -22.81932
-      },
-      {
-      longitude: -47.07418,
-      latitude: -22.81943
-      },
-      {
-      longitude: -47.07429,
-      latitude: -22.81954
-      },
-      {
-      longitude: -47.07453,
-      latitude: -22.81978
-      },
-      {
-      longitude: -47.07479,
-      latitude: -22.82002
-      },
-      {
-      longitude: -47.07504,
-      latitude: -22.82026
-      },
-      {
-      longitude: -47.07528,
-      latitude: -22.8205
-      },
-      {
-      longitude: -47.07553,
-      latitude: -22.82075
-      },
-      {
-      longitude: -47.07578,
-      latitude: -22.82099
-      },
-      {
-      longitude: -47.07611,
-      latitude: -22.82129
-      },
-      {
-      longitude: -47.07633,
-      latitude: -22.82147
-      },
-      {
-      longitude: -47.07675,
-      latitude: -22.8219
-      },
-      {
-      longitude: -47.07682,
-      latitude: -22.82196
-      },
-      {
-      longitude: -47.0769,
-      latitude: -22.82204
-      },
-      {
-      longitude: -47.07739,
-      latitude: -22.8225
-      },
-      {
-      longitude: -47.07773,
-      latitude: -22.8228
-      },
-      {
-      longitude: -47.07776,
-      latitude: -22.82283
-      },
-      {
-      longitude: -47.07779,
-      latitude: -22.82286
-      },
-      {
-      longitude: -47.0782,
-      latitude: -22.82324
-      },
-      {
-      longitude: -47.07879,
-      latitude: -22.82383
-      },
-      {
-      longitude: -47.07883,
-      latitude: -22.82387
-      },
-      {
-      longitude: -47.07895,
-      latitude: -22.82401
-      },
-      {
-      longitude: -47.07911,
-      latitude: -22.82416
-      },
-      {
-      longitude: -47.07961,
-      latitude: -22.82462
-      },
-      {
-      longitude: -47.07967,
-      latitude: -22.82465
-      },
-      {
-      longitude: -47.07972,
-      latitude: -22.82467
-      },
-      {
-      longitude: -47.07981,
-      latitude: -22.82469
-      },
-      {
-      longitude: -47.07987,
-      latitude: -22.8247
-      },
-      {
-      longitude: -47.0798692,
-      latitude: -22.8247031,
-      type: "waypoint",
-      polyline: "j}hjCdhj~G}AXuAV[Do@PO@}AVi@LiDh@uCh@",
-      dir: "Turn <b>right</b> onto <b>Av. Albino J. B. de Oliveira</b>",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 418,
-      txt: "0.4 km",
-      total: 3351
-      },
-      timeto: {
-      val: 57,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.08,
-      latitude: -22.82423
-      },
-      {
-      longitude: -47.08012,
-      latitude: -22.8238
-      },
-      {
-      longitude: -47.08015,
-      latitude: -22.82366
-      },
-      {
-      longitude: -47.08024,
-      latitude: -22.82342
-      },
-      {
-      longitude: -47.08025,
-      latitude: -22.82334
-      },
-      {
-      longitude: -47.08037,
-      latitude: -22.82287
-      },
-      {
-      longitude: -47.08044,
-      latitude: -22.82266
-      },
-      {
-      longitude: -47.08065,
-      latitude: -22.82181
-      },
-      {
-      longitude: -47.08086,
-      latitude: -22.82106
-      },
-      {
-      longitude: -47.0808591,
-      latitude: -22.8210574,
-      type: "waypoint",
-      polyline: "rfhjCjnj~GBLRdBDPDRJd@HVx@`B",
-      dir: "Turn <b>left</b> onto <b>R. Maria Ferreira Antunes</b>",
-      step: "turn-left",
-      nextturn: "turn-left",
-      dist: {
-      val: 176,
-      txt: "0.2 km",
-      total: 3527
-      },
-      timeto: {
-      val: 40,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.08093,
-      latitude: -22.82108
-      },
-      {
-      longitude: -47.08144,
-      latitude: -22.82118
-      },
-      {
-      longitude: -47.08153,
-      latitude: -22.82121
-      },
-      {
-      longitude: -47.08163,
-      latitude: -22.82124
-      },
-      {
-      longitude: -47.08182,
-      latitude: -22.8213
-      },
-      {
-      longitude: -47.08194,
-      latitude: -22.82135
-      },
-      {
-      longitude: -47.08243,
-      latitude: -22.82164
-      },
-      {
-      longitude: -47.0824306,
-      latitude: -22.8216413,
-      type: "waypoint",
-      polyline: "fjhjCdxj~GfBLjAh@d@T",
-      dir: "Continue onto <b>R. Agostinho Pátaro</b>",
-      dist: {
-      val: 130,
-      txt: "0.1 km",
-      total: 3657
-      },
-      timeto: {
-      val: 21,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.0825,
-      latitude: -22.82216
-      },
-      {
-      longitude: -47.08271,
-      latitude: -22.82254
-      },
-      {
-      longitude: -47.08282,
-      latitude: -22.82273
-      },
-      {
-      longitude: -47.082824,
-      latitude: -22.8227301,
-      type: "waypoint",
-      polyline: "`qhjCrzj~GA@GFIJEHKRGTETET?BCPA^A\@\@^D\?BDVDZHXXnARt@Rr@",
-      dir: "Turn <b>right</b> onto <b>Rua Jerônimo Páttaro</b>",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 306,
-      txt: "0.3 km",
-      total: 3963
-      },
-      timeto: {
-      val: 46,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.08283,
-      latitude: -22.82272
-      },
-      {
-      longitude: -47.08287,
-      latitude: -22.82268
-      },
-      {
-      longitude: -47.08293,
-      latitude: -22.82263
-      },
-      {
-      longitude: -47.08298,
-      latitude: -22.8226
-      },
-      {
-      longitude: -47.08308,
-      latitude: -22.82254
-      },
-      {
-      longitude: -47.08319,
-      latitude: -22.8225
-      },
-      {
-      longitude: -47.0833,
-      latitude: -22.82247
-      },
-      {
-      longitude: -47.08341,
-      latitude: -22.82244
-      },
-      {
-      longitude: -47.08343,
-      latitude: -22.82244
-      },
-      {
-      longitude: -47.08352,
-      latitude: -22.82242
-      },
-      {
-      longitude: -47.08368,
-      latitude: -22.82241
-      },
-      {
-      longitude: -47.08383,
-      latitude: -22.8224
-      },
-      {
-      longitude: -47.08398,
-      latitude: -22.82241
-      },
-      {
-      longitude: -47.08414,
-      latitude: -22.82242
-      },
-      {
-      longitude: -47.08429,
-      latitude: -22.82245
-      },
-      {
-      longitude: -47.08431,
-      latitude: -22.82245
-      },
-      {
-      longitude: -47.08443,
-      latitude: -22.82248
-      },
-      {
-      longitude: -47.08457,
-      latitude: -22.82251
-      },
-      {
-      longitude: -47.0847,
-      latitude: -22.82256
-      },
-      {
-      longitude: -47.0851,
-      latitude: -22.82269
-      },
-      {
-      longitude: -47.08537,
-      latitude: -22.82279
-      },
-      {
-      longitude: -47.08563,
-      latitude: -22.82289
-      },
-      {
-      longitude: -47.0856292,
-      latitude: -22.8228877,
-      type: "waypoint",
-      polyline: "`rhjCdlk~GO^[z@[v@CHQ^K\k@pAMROROPs@t@a@`@EDCBQRQR_BhBCDOPSXQXMZM\I\I\c@pBQv@i@dCGRGNCHM`@_@~@K\K^G^G^MhAEXALAN",
-      dir: "Turn <b>right</b> onto <b>Av. Santa Isabel</b>",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 893,
-      txt: "0.9 km",
-      total: 4856
-      },
-      timeto: {
-      val: 123,
-      txt: "2 mins"
-      }
-      },
-      {
-      longitude: -47.08579,
-      latitude: -22.82281
-      },
-      {
-      longitude: -47.08609,
-      latitude: -22.82267
-      },
-      {
-      longitude: -47.08637,
-      latitude: -22.82253
-      },
-      {
-      longitude: -47.08642,
-      latitude: -22.82251
-      },
-      {
-      longitude: -47.08658,
-      latitude: -22.82242
-      },
-      {
-      longitude: -47.08673,
-      latitude: -22.82236
-      },
-      {
-      longitude: -47.08714,
-      latitude: -22.82214
-      },
-      {
-      longitude: -47.08724,
-      latitude: -22.82207
-      },
-      {
-      longitude: -47.08734,
-      latitude: -22.82199
-      },
-      {
-      longitude: -47.08743,
-      latitude: -22.82191
-      },
-      {
-      longitude: -47.0877,
-      latitude: -22.82165
-      },
-      {
-      longitude: -47.08787,
-      latitude: -22.82148
-      },
-      {
-      longitude: -47.0879,
-      latitude: -22.82145
-      },
-      {
-      longitude: -47.08792,
-      latitude: -22.82143
-      },
-      {
-      longitude: -47.08802,
-      latitude: -22.82134
-      },
-      {
-      longitude: -47.08812,
-      latitude: -22.82125
-      },
-      {
-      longitude: -47.08865,
-      latitude: -22.82077
-      },
-      {
-      longitude: -47.08868,
-      latitude: -22.82075
-      },
-      {
-      longitude: -47.08877,
-      latitude: -22.82067
-      },
-      {
-      longitude: -47.0889,
-      latitude: -22.82057
-      },
-      {
-      longitude: -47.08903,
-      latitude: -22.82048
-      },
-      {
-      longitude: -47.08917,
-      latitude: -22.82041
-      },
-      {
-      longitude: -47.08932,
-      latitude: -22.82034
-      },
-      {
-      longitude: -47.08947,
-      latitude: -22.82029
-      },
-      {
-      longitude: -47.08962,
-      latitude: -22.82024
-      },
-      {
-      longitude: -47.09019,
-      latitude: -22.82006
-      },
-      {
-      longitude: -47.09047,
-      latitude: -22.81997
-      },
-      {
-      longitude: -47.09114,
-      latitude: -22.81976
-      },
-      {
-      longitude: -47.09124,
-      latitude: -22.81972
-      },
-      {
-      longitude: -47.09132,
-      latitude: -22.81968
-      },
-      {
-      longitude: -47.09137,
-      latitude: -22.81966
-      },
-      {
-      longitude: -47.09154,
-      latitude: -22.81959
-      },
-      {
-      longitude: -47.09186,
-      latitude: -22.81943
-      },
-      {
-      longitude: -47.09201,
-      latitude: -22.81937
-      },
-      {
-      longitude: -47.09217,
-      latitude: -22.81931
-      },
-      {
-      longitude: -47.09233,
-      latitude: -22.81927
-      },
-      {
-      longitude: -47.09249,
-      latitude: -22.81923
-      },
-      {
-      longitude: -47.09286,
-      latitude: -22.81916
-      },
-      {
-      longitude: -47.09299,
-      latitude: -22.81913
-      },
-      {
-      longitude: -47.09306,
-      latitude: -22.81912
-      },
-      {
-      longitude: -47.09314,
-      latitude: -22.81911
-      },
-      {
-      longitude: -47.0931362,
-      latitude: -22.8191058,
-      type: "waypoint",
-      polyline: "lzgjCb{l~GcBc@MAKAM?C@",
-      dir: "Turn <b>right</b> onto <b>R. Armando Sebastião Bonome</b>/<b>R. Armando Sebastião Bonomi</b>",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 83,
-      txt: "83 m",
-      total: 4939
-      },
-      timeto: {
-      val: 17,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.09296,
-      latitude: -22.81861
-      },
-      {
-      longitude: -47.09295,
-      latitude: -22.81854
-      },
-      {
-      longitude: -47.09294,
-      latitude: -22.81848
-      },
-      {
-      longitude: -47.09294,
-      latitude: -22.81841
-      },
-      {
-      longitude: -47.09295,
-      latitude: -22.81839
-      },
-      {
-      longitude: -47.0929467,
-      latitude: -22.8183891,
-      type: "waypoint",
-      polyline: "|ugjC|yl~GYzAW|A",
-      dir: "Turn <b>left</b> onto <b>R. Luís Vicentim Sobrinho</b>",
-      step: "turn-left",
-      nextturn: "turn-left",
-      dist: {
-      val: 100,
-      txt: "0.1 km",
-      total: 5039
-      },
-      timeto: {
-      val: 19,
-      txt: "1 min"
-      }
-      },
-      {
-      longitude: -47.09341,
-      latitude: -22.81826
-      },
-      {
-      longitude: -47.09388,
-      latitude: -22.81814
-      },
-      {
-      longitude: -47.0938829,
-      latitude: -22.8181411,
-      type: "waypoint",
-      step: "turn-right",
-      nextturn: "turn-right",
-      dist: {
-      val: 378,
-      txt: "0.4 km",
-      total: 5417
-      },
-      timeto: {
-      val: 92,
-      txt: "2 mins"
-      }
-      },
-      {
-      longitude: -47.09415,
-      latitude: -22.81721
-      },
-      {
-      longitude: -47.09439,
-      latitude: -22.81635
-      },
-      {
-      longitude: -47.09483,
-      latitude: -22.81493
-      },
-      {
-      longitude: -47.09485,
-      latitude: -22.81486
-      },
-      {
-      longitude: -47.0948505,
-      latitude: -22.8148564,
-      type: "waypoint"
-      }
+              longitude: -47.0587654,
+              latitude: -22.8142571,
+              type: "waypoint",
+              polyline: "b|fjChdf~GAAA?A?AAA?A?A@A?A?A@A?A?A@A@A@A@A@?@?@A@?@?@A@?@?@?@?@?@?@@??@?@@@?@",
+              dir: "Head <b>north</b> toward <b>Av. Alan Turing</b>",
+              dist: {
+              val: 38,
+              txt: "38 m",
+              total: 38
+              },
+              timeto: {
+              val: 20,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81425
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81424
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81423
+              },
+              {
+              longitude: -47.05875,
+              latitude: -22.81422
+              },
+              {
+              longitude: -47.05875,
+              latitude: -22.81421
+              },
+              {
+              longitude: -47.05875,
+              latitude: -22.8142
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81419
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81418
+              },
+              {
+              longitude: -47.05876,
+              latitude: -22.81417
+              },
+              {
+              longitude: -47.05877,
+              latitude: -22.81416
+              },
+              {
+              longitude: -47.05877,
+              latitude: -22.81415
+              },
+              {
+              longitude: -47.05877,
+              latitude: -22.81414
+              },
+              {
+              longitude: -47.05878,
+              latitude: -22.81413
+              },
+              {
+              longitude: -47.05879,
+              latitude: -22.81412
+              },
+              {
+              longitude: -47.0588,
+              latitude: -22.81411
+              },
+              {
+              longitude: -47.05881,
+              latitude: -22.8141
+              },
+              {
+              longitude: -47.05882,
+              latitude: -22.81409
+              },
+              {
+              longitude: -47.05883,
+              latitude: -22.81409
+              },
+              {
+              longitude: -47.05884,
+              latitude: -22.81409
+              },
+              {
+              longitude: -47.05885,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05886,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05887,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05888,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05889,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.0589,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05891,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05892,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05893,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05894,
+              latitude: -22.81407
+              },
+              {
+              longitude: -47.05894,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05895,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05896,
+              latitude: -22.81408
+              },
+              {
+              longitude: -47.05897,
+              latitude: -22.81409
+              },
+              {
+              longitude: -47.05898,
+              latitude: -22.81409
+              },
+              {
+              longitude: -47.0589812,
+              latitude: -22.8140904,
+              type: "waypoint",
+              polyline: "`{fjCref~GMXITQb@Od@K\Kp@CRARADKnAEd@]zDk@jFa@fEARAV?HAHAH?Ru@|GCRCTCT?T?XBN?P@H@J",
+              dir: "Turn <b>right</b> onto <b>Av. Alan Turing</b>",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 809,
+              txt: "0.8 km",
+              total: 847
+              },
+              timeto: {
+              val: 137,
+              txt: "2 mins"
+              }
+              },
+              {
+              longitude: -47.05911,
+              latitude: -22.81402
+              },
+              {
+              longitude: -47.05922,
+              latitude: -22.81397
+              },
+              {
+              longitude: -47.0594,
+              latitude: -22.81388
+              },
+              {
+              longitude: -47.05959,
+              latitude: -22.8138
+              },
+              {
+              longitude: -47.05974,
+              latitude: -22.81374
+              },
+              {
+              longitude: -47.05999,
+              latitude: -22.81368
+              },
+              {
+              longitude: -47.06009,
+              latitude: -22.81366
+              },
+              {
+              longitude: -47.06019,
+              latitude: -22.81365
+              },
+              {
+              longitude: -47.06022,
+              latitude: -22.81364
+              },
+              {
+              longitude: -47.06062,
+              latitude: -22.81358
+              },
+              {
+              longitude: -47.06081,
+              latitude: -22.81355
+              },
+              {
+              longitude: -47.06175,
+              latitude: -22.8134
+              },
+              {
+              longitude: -47.06293,
+              latitude: -22.81318
+              },
+              {
+              longitude: -47.06393,
+              latitude: -22.81301
+              },
+              {
+              longitude: -47.06403,
+              latitude: -22.813
+              },
+              {
+              longitude: -47.06415,
+              latitude: -22.81299
+              },
+              {
+              longitude: -47.0642,
+              latitude: -22.81299
+              },
+              {
+              longitude: -47.06425,
+              latitude: -22.81298
+              },
+              {
+              longitude: -47.0643,
+              latitude: -22.81297
+              },
+              {
+              longitude: -47.0644,
+              latitude: -22.81297
+              },
+              {
+              longitude: -47.06583,
+              latitude: -22.8127
+              },
+              {
+              longitude: -47.06593,
+              latitude: -22.81268
+              },
+              {
+              longitude: -47.06604,
+              latitude: -22.81266
+              },
+              {
+              longitude: -47.06615,
+              latitude: -22.81264
+              },
+              {
+              longitude: -47.06626,
+              latitude: -22.81264
+              },
+              {
+              longitude: -47.06639,
+              latitude: -22.81264
+              },
+              {
+              longitude: -47.06647,
+              latitude: -22.81266
+              },
+              {
+              longitude: -47.06656,
+              latitude: -22.81266
+              },
+              {
+              longitude: -47.06661,
+              latitude: -22.81267
+              },
+              {
+              longitude: -47.06667,
+              latitude: -22.81268
+              },
+              {
+              longitude: -47.066672,
+              latitude: -22.8126792,
+              type: "waypoint",
+              dist: {
+              val: 1033,
+              txt: "1.0 km",
+              total: 1880
+              },
+              timeto: {
+              val: 156,
+              txt: "3 mins"
+              }
+              },
+              {
+              longitude: -47.06685,
+              latitude: -22.81263
+              },
+              {
+              longitude: -47.06695,
+              latitude: -22.81261
+              },
+              {
+              longitude: -47.06697,
+              latitude: -22.81261
+              },
+              {
+              longitude: -47.06709,
+              latitude: -22.81259
+              },
+              {
+              longitude: -47.06719,
+              latitude: -22.81257
+              },
+              {
+              longitude: -47.06733,
+              latitude: -22.81256
+              },
+              {
+              longitude: -47.06743,
+              latitude: -22.81255
+              },
+              {
+              longitude: -47.06753,
+              latitude: -22.81255
+              },
+              {
+              longitude: -47.06773,
+              latitude: -22.81255
+              },
+              {
+              longitude: -47.06784,
+              latitude: -22.81255
+              },
+              {
+              longitude: -47.06795,
+              latitude: -22.81256
+              },
+              {
+              longitude: -47.068,
+              latitude: -22.81256
+              },
+              {
+              longitude: -47.06817,
+              latitude: -22.81259
+              },
+              {
+              longitude: -47.06835,
+              latitude: -22.81262
+              },
+              {
+              longitude: -47.06852,
+              latitude: -22.81266
+              },
+              {
+              longitude: -47.06855,
+              latitude: -22.81267
+              },
+              {
+              longitude: -47.06884,
+              latitude: -22.81276
+              },
+              {
+              longitude: -47.0693,
+              latitude: -22.81294
+              },
+              {
+              longitude: -47.06977,
+              latitude: -22.81311
+              },
+              {
+              longitude: -47.0698,
+              latitude: -22.81312
+              },
+              {
+              longitude: -47.07005,
+              latitude: -22.81321
+              },
+              {
+              longitude: -47.07022,
+              latitude: -22.81328
+              },
+              {
+              longitude: -47.07039,
+              latitude: -22.81335
+              },
+              {
+              longitude: -47.07055,
+              latitude: -22.81344
+              },
+              {
+              longitude: -47.07081,
+              latitude: -22.81359
+              },
+              {
+              longitude: -47.07089,
+              latitude: -22.81365
+              },
+              {
+              longitude: -47.07096,
+              latitude: -22.8137
+              },
+              {
+              longitude: -47.07103,
+              latitude: -22.81377
+              },
+              {
+              longitude: -47.0711,
+              latitude: -22.81384
+              },
+              {
+              longitude: -47.0711,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07111,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07112,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07113,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07114,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07115,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07116,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07117,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07118,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07119,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.0712,
+              latitude: -22.81382
+              },
+              {
+              longitude: -47.07121,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07122,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07123,
+              latitude: -22.81383
+              },
+              {
+              longitude: -47.07123,
+              latitude: -22.81384
+              },
+              {
+              longitude: -47.07124,
+              latitude: -22.81384
+              },
+              {
+              longitude: -47.07124,
+              latitude: -22.81385
+              },
+              {
+              longitude: -47.07132,
+              latitude: -22.81386
+              },
+              {
+              longitude: -47.07134,
+              latitude: -22.81387
+              },
+              {
+              longitude: -47.07136,
+              latitude: -22.81388
+              },
+              {
+              longitude: -47.07138,
+              latitude: -22.81388
+              },
+              {
+              longitude: -47.07139,
+              latitude: -22.81389
+              },
+              {
+              longitude: -47.0714,
+              latitude: -22.8139
+              },
+              {
+              longitude: -47.07172,
+              latitude: -22.81414
+              },
+              {
+              longitude: -47.07197,
+              latitude: -22.81435
+              },
+              {
+              longitude: -47.07209,
+              latitude: -22.81447
+              },
+              {
+              longitude: -47.0722,
+              latitude: -22.81459
+              },
+              {
+              longitude: -47.0723,
+              latitude: -22.81472
+              },
+              {
+              longitude: -47.07238,
+              latitude: -22.81483
+              },
+              {
+              longitude: -47.0724,
+              latitude: -22.81486
+              },
+              {
+              longitude: -47.07248,
+              latitude: -22.815
+              },
+              {
+              longitude: -47.07256,
+              latitude: -22.81516
+              },
+              {
+              longitude: -47.07263,
+              latitude: -22.81532
+              },
+              {
+              longitude: -47.07268,
+              latitude: -22.81549
+              },
+              {
+              longitude: -47.07273,
+              latitude: -22.81566
+              },
+              {
+              longitude: -47.07277,
+              latitude: -22.81583
+              },
+              {
+              longitude: -47.07279,
+              latitude: -22.81601
+              },
+              {
+              longitude: -47.07281,
+              latitude: -22.81619
+              },
+              {
+              longitude: -47.07282,
+              latitude: -22.81637
+              },
+              {
+              longitude: -47.07282,
+              latitude: -22.81656
+              },
+              {
+              longitude: -47.07281,
+              latitude: -22.81674
+              },
+              {
+              longitude: -47.0728,
+              latitude: -22.81684
+              },
+              {
+              longitude: -47.07277,
+              latitude: -22.81717
+              },
+              {
+              longitude: -47.07276,
+              latitude: -22.81727
+              },
+              {
+              longitude: -47.07272,
+              latitude: -22.81761
+              },
+              {
+              longitude: -47.07271,
+              latitude: -22.81775
+              },
+              {
+              longitude: -47.0727,
+              latitude: -22.81783
+              },
+              {
+              longitude: -47.07266,
+              latitude: -22.81803
+              },
+              {
+              longitude: -47.0726605,
+              latitude: -22.8180312,
+              type: "waypoint",
+              polyline: "tsgjCb{h~G?@@B?@@B?@@@?B@@?@@@?@@@@@?@@@@@@@B@@@B?@@B@@?B@b@f@^^rAxAFFZ\Z^TTTTn@n@n@r@n@p@n@n@p@p@n@p@z@`Ab@j@tArAJLNNzA`Bz@bADDDDjApAtBtBFFZV\^zAbBDJBHBP@J",
+              dir: "At <b>Praça Henfil</b>, take the <b>2nd</b> exit onto <b>Av. Professor Atílio Martini</b> heading to <b>Barão Geraldo</b>",
+              step: "roundabout-right",
+              nextturn: "roundabout-right",
+              dist: {
+              val: 1053,
+              txt: "1.1 km",
+              total: 2933
+              },
+              timeto: {
+              val: 156,
+              txt: "3 mins"
+              }
+              },
+              {
+              longitude: -47.07267,
+              latitude: -22.81803
+              },
+              {
+              longitude: -47.07269,
+              latitude: -22.81804
+              },
+              {
+              longitude: -47.0727,
+              latitude: -22.81804
+              },
+              {
+              longitude: -47.07272,
+              latitude: -22.81805
+              },
+              {
+              longitude: -47.07273,
+              latitude: -22.81805
+              },
+              {
+              longitude: -47.07274,
+              latitude: -22.81806
+              },
+              {
+              longitude: -47.07276,
+              latitude: -22.81806
+              },
+              {
+              longitude: -47.07277,
+              latitude: -22.81807
+              },
+              {
+              longitude: -47.07278,
+              latitude: -22.81807
+              },
+              {
+              longitude: -47.07279,
+              latitude: -22.81808
+              },
+              {
+              longitude: -47.0728,
+              latitude: -22.81808
+              },
+              {
+              longitude: -47.07281,
+              latitude: -22.81809
+              },
+              {
+              longitude: -47.07282,
+              latitude: -22.8181
+              },
+              {
+              longitude: -47.07283,
+              latitude: -22.8181
+              },
+              {
+              longitude: -47.07284,
+              latitude: -22.81811
+              },
+              {
+              longitude: -47.07285,
+              latitude: -22.81812
+              },
+              {
+              longitude: -47.07286,
+              latitude: -22.81813
+              },
+              {
+              longitude: -47.07287,
+              latitude: -22.81815
+              },
+              {
+              longitude: -47.07288,
+              latitude: -22.81816
+              },
+              {
+              longitude: -47.07288,
+              latitude: -22.81818
+              },
+              {
+              longitude: -47.07289,
+              latitude: -22.81819
+              },
+              {
+              longitude: -47.0729,
+              latitude: -22.81821
+              },
+              {
+              longitude: -47.0729,
+              latitude: -22.81822
+              },
+              {
+              longitude: -47.07291,
+              latitude: -22.81824
+              },
+              {
+              longitude: -47.07311,
+              latitude: -22.81842
+              },
+              {
+              longitude: -47.07327,
+              latitude: -22.81858
+              },
+              {
+              longitude: -47.07372,
+              latitude: -22.819
+              },
+              {
+              longitude: -47.07376,
+              latitude: -22.81904
+              },
+              {
+              longitude: -47.07391,
+              latitude: -22.81918
+              },
+              {
+              longitude: -47.07407,
+              latitude: -22.81932
+              },
+              {
+              longitude: -47.07418,
+              latitude: -22.81943
+              },
+              {
+              longitude: -47.07429,
+              latitude: -22.81954
+              },
+              {
+              longitude: -47.07453,
+              latitude: -22.81978
+              },
+              {
+              longitude: -47.07479,
+              latitude: -22.82002
+              },
+              {
+              longitude: -47.07504,
+              latitude: -22.82026
+              },
+              {
+              longitude: -47.07528,
+              latitude: -22.8205
+              },
+              {
+              longitude: -47.07553,
+              latitude: -22.82075
+              },
+              {
+              longitude: -47.07578,
+              latitude: -22.82099
+              },
+              {
+              longitude: -47.07611,
+              latitude: -22.82129
+              },
+              {
+              longitude: -47.07633,
+              latitude: -22.82147
+              },
+              {
+              longitude: -47.07675,
+              latitude: -22.8219
+              },
+              {
+              longitude: -47.07682,
+              latitude: -22.82196
+              },
+              {
+              longitude: -47.0769,
+              latitude: -22.82204
+              },
+              {
+              longitude: -47.07739,
+              latitude: -22.8225
+              },
+              {
+              longitude: -47.07773,
+              latitude: -22.8228
+              },
+              {
+              longitude: -47.07776,
+              latitude: -22.82283
+              },
+              {
+              longitude: -47.07779,
+              latitude: -22.82286
+              },
+              {
+              longitude: -47.0782,
+              latitude: -22.82324
+              },
+              {
+              longitude: -47.07879,
+              latitude: -22.82383
+              },
+              {
+              longitude: -47.07883,
+              latitude: -22.82387
+              },
+              {
+              longitude: -47.07895,
+              latitude: -22.82401
+              },
+              {
+              longitude: -47.07911,
+              latitude: -22.82416
+              },
+              {
+              longitude: -47.07961,
+              latitude: -22.82462
+              },
+              {
+              longitude: -47.07967,
+              latitude: -22.82465
+              },
+              {
+              longitude: -47.07972,
+              latitude: -22.82467
+              },
+              {
+              longitude: -47.07981,
+              latitude: -22.82469
+              },
+              {
+              longitude: -47.07987,
+              latitude: -22.8247
+              },
+              {
+              longitude: -47.0798692,
+              latitude: -22.8247031,
+              type: "waypoint",
+              polyline: "j}hjCdhj~G}AXuAV[Do@PO@}AVi@LiDh@uCh@",
+              dir: "Turn <b>right</b> onto <b>Av. Albino J. B. de Oliveira</b>",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 418,
+              txt: "0.4 km",
+              total: 3351
+              },
+              timeto: {
+              val: 57,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.08,
+              latitude: -22.82423
+              },
+              {
+              longitude: -47.08012,
+              latitude: -22.8238
+              },
+              {
+              longitude: -47.08015,
+              latitude: -22.82366
+              },
+              {
+              longitude: -47.08024,
+              latitude: -22.82342
+              },
+              {
+              longitude: -47.08025,
+              latitude: -22.82334
+              },
+              {
+              longitude: -47.08037,
+              latitude: -22.82287
+              },
+              {
+              longitude: -47.08044,
+              latitude: -22.82266
+              },
+              {
+              longitude: -47.08065,
+              latitude: -22.82181
+              },
+              {
+              longitude: -47.08086,
+              latitude: -22.82106
+              },
+              {
+              longitude: -47.0808591,
+              latitude: -22.8210574,
+              type: "waypoint",
+              polyline: "rfhjCjnj~GBLRdBDPDRJd@HVx@`B",
+              dir: "Turn <b>left</b> onto <b>R. Maria Ferreira Antunes</b>",
+              step: "turn-left",
+              nextturn: "turn-left",
+              dist: {
+              val: 176,
+              txt: "0.2 km",
+              total: 3527
+              },
+              timeto: {
+              val: 40,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.08093,
+              latitude: -22.82108
+              },
+              {
+              longitude: -47.08144,
+              latitude: -22.82118
+              },
+              {
+              longitude: -47.08153,
+              latitude: -22.82121
+              },
+              {
+              longitude: -47.08163,
+              latitude: -22.82124
+              },
+              {
+              longitude: -47.08182,
+              latitude: -22.8213
+              },
+              {
+              longitude: -47.08194,
+              latitude: -22.82135
+              },
+              {
+              longitude: -47.08243,
+              latitude: -22.82164
+              },
+              {
+              longitude: -47.0824306,
+              latitude: -22.8216413,
+              type: "waypoint",
+              polyline: "fjhjCdxj~GfBLjAh@d@T",
+              dir: "Continue onto <b>R. Agostinho Pátaro</b>",
+              dist: {
+              val: 130,
+              txt: "0.1 km",
+              total: 3657
+              },
+              timeto: {
+              val: 21,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.0825,
+              latitude: -22.82216
+              },
+              {
+              longitude: -47.08271,
+              latitude: -22.82254
+              },
+              {
+              longitude: -47.08282,
+              latitude: -22.82273
+              },
+              {
+              longitude: -47.082824,
+              latitude: -22.8227301,
+              type: "waypoint",
+              polyline: "`qhjCrzj~GA@GFIJEHKRGTETET?BCPA^A\@\@^D\?BDVDZHXXnARt@Rr@",
+              dir: "Turn <b>right</b> onto <b>Rua Jerônimo Páttaro</b>",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 306,
+              txt: "0.3 km",
+              total: 3963
+              },
+              timeto: {
+              val: 46,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.08283,
+              latitude: -22.82272
+              },
+              {
+              longitude: -47.08287,
+              latitude: -22.82268
+              },
+              {
+              longitude: -47.08293,
+              latitude: -22.82263
+              },
+              {
+              longitude: -47.08298,
+              latitude: -22.8226
+              },
+              {
+              longitude: -47.08308,
+              latitude: -22.82254
+              },
+              {
+              longitude: -47.08319,
+              latitude: -22.8225
+              },
+              {
+              longitude: -47.0833,
+              latitude: -22.82247
+              },
+              {
+              longitude: -47.08341,
+              latitude: -22.82244
+              },
+              {
+              longitude: -47.08343,
+              latitude: -22.82244
+              },
+              {
+              longitude: -47.08352,
+              latitude: -22.82242
+              },
+              {
+              longitude: -47.08368,
+              latitude: -22.82241
+              },
+              {
+              longitude: -47.08383,
+              latitude: -22.8224
+              },
+              {
+              longitude: -47.08398,
+              latitude: -22.82241
+              },
+              {
+              longitude: -47.08414,
+              latitude: -22.82242
+              },
+              {
+              longitude: -47.08429,
+              latitude: -22.82245
+              },
+              {
+              longitude: -47.08431,
+              latitude: -22.82245
+              },
+              {
+              longitude: -47.08443,
+              latitude: -22.82248
+              },
+              {
+              longitude: -47.08457,
+              latitude: -22.82251
+              },
+              {
+              longitude: -47.0847,
+              latitude: -22.82256
+              },
+              {
+              longitude: -47.0851,
+              latitude: -22.82269
+              },
+              {
+              longitude: -47.08537,
+              latitude: -22.82279
+              },
+              {
+              longitude: -47.08563,
+              latitude: -22.82289
+              },
+              {
+              longitude: -47.0856292,
+              latitude: -22.8228877,
+              type: "waypoint",
+              polyline: "`rhjCdlk~GO^[z@[v@CHQ^K\k@pAMROROPs@t@a@`@EDCBQRQR_BhBCDOPSXQXMZM\I\I\c@pBQv@i@dCGRGNCHM`@_@~@K\K^G^G^MhAEXALAN",
+              dir: "Turn <b>right</b> onto <b>Av. Santa Isabel</b>",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 893,
+              txt: "0.9 km",
+              total: 4856
+              },
+              timeto: {
+              val: 123,
+              txt: "2 mins"
+              }
+              },
+              {
+              longitude: -47.08579,
+              latitude: -22.82281
+              },
+              {
+              longitude: -47.08609,
+              latitude: -22.82267
+              },
+              {
+              longitude: -47.08637,
+              latitude: -22.82253
+              },
+              {
+              longitude: -47.08642,
+              latitude: -22.82251
+              },
+              {
+              longitude: -47.08658,
+              latitude: -22.82242
+              },
+              {
+              longitude: -47.08673,
+              latitude: -22.82236
+              },
+              {
+              longitude: -47.08714,
+              latitude: -22.82214
+              },
+              {
+              longitude: -47.08724,
+              latitude: -22.82207
+              },
+              {
+              longitude: -47.08734,
+              latitude: -22.82199
+              },
+              {
+              longitude: -47.08743,
+              latitude: -22.82191
+              },
+              {
+              longitude: -47.0877,
+              latitude: -22.82165
+              },
+              {
+              longitude: -47.08787,
+              latitude: -22.82148
+              },
+              {
+              longitude: -47.0879,
+              latitude: -22.82145
+              },
+              {
+              longitude: -47.08792,
+              latitude: -22.82143
+              },
+              {
+              longitude: -47.08802,
+              latitude: -22.82134
+              },
+              {
+              longitude: -47.08812,
+              latitude: -22.82125
+              },
+              {
+              longitude: -47.08865,
+              latitude: -22.82077
+              },
+              {
+              longitude: -47.08868,
+              latitude: -22.82075
+              },
+              {
+              longitude: -47.08877,
+              latitude: -22.82067
+              },
+              {
+              longitude: -47.0889,
+              latitude: -22.82057
+              },
+              {
+              longitude: -47.08903,
+              latitude: -22.82048
+              },
+              {
+              longitude: -47.08917,
+              latitude: -22.82041
+              },
+              {
+              longitude: -47.08932,
+              latitude: -22.82034
+              },
+              {
+              longitude: -47.08947,
+              latitude: -22.82029
+              },
+              {
+              longitude: -47.08962,
+              latitude: -22.82024
+              },
+              {
+              longitude: -47.09019,
+              latitude: -22.82006
+              },
+              {
+              longitude: -47.09047,
+              latitude: -22.81997
+              },
+              {
+              longitude: -47.09114,
+              latitude: -22.81976
+              },
+              {
+              longitude: -47.09124,
+              latitude: -22.81972
+              },
+              {
+              longitude: -47.09132,
+              latitude: -22.81968
+              },
+              {
+              longitude: -47.09137,
+              latitude: -22.81966
+              },
+              {
+              longitude: -47.09154,
+              latitude: -22.81959
+              },
+              {
+              longitude: -47.09186,
+              latitude: -22.81943
+              },
+              {
+              longitude: -47.09201,
+              latitude: -22.81937
+              },
+              {
+              longitude: -47.09217,
+              latitude: -22.81931
+              },
+              {
+              longitude: -47.09233,
+              latitude: -22.81927
+              },
+              {
+              longitude: -47.09249,
+              latitude: -22.81923
+              },
+              {
+              longitude: -47.09286,
+              latitude: -22.81916
+              },
+              {
+              longitude: -47.09299,
+              latitude: -22.81913
+              },
+              {
+              longitude: -47.09306,
+              latitude: -22.81912
+              },
+              {
+              longitude: -47.09314,
+              latitude: -22.81911
+              },
+              {
+              longitude: -47.0931362,
+              latitude: -22.8191058,
+              type: "waypoint",
+              polyline: "lzgjCb{l~GcBc@MAKAM?C@",
+              dir: "Turn <b>right</b> onto <b>R. Armando Sebastião Bonome</b>/<b>R. Armando Sebastião Bonomi</b>",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 83,
+              txt: "83 m",
+              total: 4939
+              },
+              timeto: {
+              val: 17,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.09296,
+              latitude: -22.81861
+              },
+              {
+              longitude: -47.09295,
+              latitude: -22.81854
+              },
+              {
+              longitude: -47.09294,
+              latitude: -22.81848
+              },
+              {
+              longitude: -47.09294,
+              latitude: -22.81841
+              },
+              {
+              longitude: -47.09295,
+              latitude: -22.81839
+              },
+              {
+              longitude: -47.0929467,
+              latitude: -22.8183891,
+              type: "waypoint",
+              polyline: "|ugjC|yl~GYzAW|A",
+              dir: "Turn <b>left</b> onto <b>R. Luís Vicentim Sobrinho</b>",
+              step: "turn-left",
+              nextturn: "turn-left",
+              dist: {
+              val: 100,
+              txt: "0.1 km",
+              total: 5039
+              },
+              timeto: {
+              val: 19,
+              txt: "1 min"
+              }
+              },
+              {
+              longitude: -47.09341,
+              latitude: -22.81826
+              },
+              {
+              longitude: -47.09388,
+              latitude: -22.81814
+              },
+              {
+              longitude: -47.0938829,
+              latitude: -22.8181411,
+              type: "waypoint",
+              step: "turn-right",
+              nextturn: "turn-right",
+              dist: {
+              val: 378,
+              txt: "0.4 km",
+              total: 5417
+              },
+              timeto: {
+              val: 92,
+              txt: "2 mins"
+              }
+              },
+              {
+              longitude: -47.09415,
+              latitude: -22.81721
+              },
+              {
+              longitude: -47.09439,
+              latitude: -22.81635
+              },
+              {
+              longitude: -47.09483,
+              latitude: -22.81493
+              },
+              {
+              longitude: -47.09485,
+              latitude: -22.81486
+              },
+              {
+              longitude: -47.0948505,
+              latitude: -22.8148564,
+              type: "waypoint"
+              }
 
                 ]
               },
-              {
+      {
                 "endereco": "avenida",
                 "type": "bicycle",
                 "pois": [{
@@ -3563,10 +3563,46 @@ module.exports = function(app){
 
   })
 
-  app.post('/get_keepers', (req, res) => {
+  app.get('/home', (req, res) => {
 
+    var keepers = [
+      {
+        url: 'images/keeper_01.jpg',
+        address: 'Rua Lorem Ipsum',
+        available: '8/12'
+      },
+      {
+        url: 'images/keeper_02.jpg',
+        address: 'Rua Lorem Ipsum',
+        available: '5/8'
+      },
+      {
+        url: 'images/keeper_03.jpg',
+        address: 'Rua Lorem Ipsum',
+        available: '7/11'
+      },
+      {
+        url: 'images/keeper_04.jpg',
+        address: 'Rua Lorem Ipsum',
+        available: '5/10'
+      }
+    ]
 
+    var history = [
+      'Av Sapopemba, 13790 - São Paulo/SP',
+      'Rua Domiciano Rossi, 425 - Jardim Chácara',
+      'Av das Nações Unidas, 174 - São Paulo/SP',
+      'Av Alenxadre Cazellato, 205 - Paulinia/SP'
+    ]
 
+    var response = {
+      data: {
+        keepers,
+        history
+      }
+    }
+
+    res.send(response)
     
   })
 
