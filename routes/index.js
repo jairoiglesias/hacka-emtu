@@ -1,6 +1,8 @@
 
 module.exports = function(app){
 
+  // TESTE 01
+
   var haversine = function(lat1, lon1, lat2, lon2) {
     var deg2rad = 0.017453292519943295; // === Math.PI / 180
     var cos = Math.cos;
@@ -16,6 +18,8 @@ module.exports = function(app){
     return diam * Math.asin(Math.sqrt(a)) * 1000;
   }
 
+  // TESTE 02
+
   var getDistance = function(lat1, lon1, lat2, lon2) {
     var p = 0.017453292519943295;    // Math.PI / 180
     var c = Math.cos;
@@ -25,6 +29,8 @@ module.exports = function(app){
 
     return 12742 * Math.asin(Math.sqrt(a)); // 2 * R; R = 6371 km
   }
+
+  // TESTE 03
 
   //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   //:::                                                                         :::
@@ -80,17 +86,39 @@ module.exports = function(app){
 
   })
 
+  // DUMMY
+
+  app.post('/get_dummy', (req, res) => {
+
+    var dummy = []
+
+    dummy.push(
+    {
+      lat: -22.818411,
+      lng: -47.093903,
+      trajetos:[
+        {tipo: 'onibus', lat1: -22.817907, lng1: -47.094506, lat2: -22.816548, lng2: -47.096714},
+        {tipo: 'keeper', lat1: -22.815926, lng1: -47.097411, lat2: -22.815899, lng2: -47.095365},
+      ]
+    })
+
+    res.send(dummy)
+
+  })
+
   app.post('/get_stops', (req, res) => {
 
     // Recupera os parametros de lat/lng do usuario
     
-    // var lat1 = req.body.lat
-    // var lng1 = req.body.lng
+    var lat1 = req.body.lat
+    var lng1 = req.body.lng
 
     // DEBUG (R. Luís Vicentim Sobrinho, 563 - Barão Geraldo, Campinas - SP, 13084-030)
 
-    var lat1 = -22.818411
-    var lng1 = -47.093903
+    if(lat1 == undefined){
+      var lat1 = -22.818411
+      var lng1 = -47.093903
+    }
 
     console.log('Posicao usuario:')
     console.log(lat1, lng1)
@@ -99,7 +127,6 @@ module.exports = function(app){
 
     var sql = "SELECT * FROM stops"
     conn.query(sql, function(err, rows, fields){
-
 
       var promiseLocations = new Promise(function(resolve, reject){
       
@@ -111,6 +138,7 @@ module.exports = function(app){
           var lat2 = value.stop_lat
           var lng2 = value.stop_lon
 
+          // Calcula a distancia do endereço do usuario com o Stop atual
           var distance = getDistanceV2(lat1, lng1, lat2, lng2, 'K')
           // console.log('distance: ' + distance)
 
