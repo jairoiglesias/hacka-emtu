@@ -86,7 +86,7 @@ module.exports = function(app){
     
     // var lat1 = req.body.lat
     // var lng1 = req.body.lng
-    
+
     // DEBUG (R. Luís Vicentim Sobrinho, 563 - Barão Geraldo, Campinas - SP, 13084-030)
 
     var lat1 = -22.818411
@@ -100,30 +100,45 @@ module.exports = function(app){
     var sql = "SELECT * FROM stops"
     conn.query(sql, function(err, rows, fields){
 
-      rows.forEach(function(value, index) {
 
-        var lat2 = value.stop_lat
-        var lng2 = value.stop_lon
+      var promiseLocations = new Promise(function(resolve, reject){
+      
+        var tam = rows.length
+        var locations = []
 
+        rows.forEach(function(value, index) {
 
-        var distance = getDistanceV2(lat1, lng1, lat2, lng2, 'K')
-        // console.log('distance: ' + distance)
+          var lat2 = value.stop_lat
+          var lng2 = value.stop_lon
 
-        if(distance <= 0.5){
-          
-          console.log(lat1, lng1)
-          console.log(lat2, lng2)
-          console.log('distance: ' + distance)
-          console.log(value)
-        }
+          var distance = getDistanceV2(lat1, lng1, lat2, lng2, 'K')
+          // console.log('distance: ' + distance)
+
+          if(distance <= 0.5){
+            
+            console.log(lat1, lng1)
+            console.log(lat2, lng2)
+            console.log('distance: ' + distance)
+            console.log(value)
+
+            locations.push(value)
+
+          }
+
+          if(index == (tam - 1)){
+            resolve(locations)
+          }
+
+        })
 
       })
 
-      // res.send(rows)
-
+      promiseLocations.then(function(locations){
+        res.send(locations)
+      })
 
     })
+
   })
 
 }
-
