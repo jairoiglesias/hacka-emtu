@@ -478,7 +478,7 @@ var routes = {
         ]
       },
       {
-        "endereco": "avenida",
+        "endereco": "rua",
         "type": "bicycle",
         "pois": [{
             "type": "keeper",
