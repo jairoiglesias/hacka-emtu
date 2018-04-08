@@ -2780,7 +2780,7 @@ var routes = {
             "type": "bicycle",
             "pois": [{
                 "type": "keeper",
-                "name": "Home",
+                "name": "Work",
                 "point": {
                     "latitude": -22.8175769,
                     "longitude": -47.0886465
