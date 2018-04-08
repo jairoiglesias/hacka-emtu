@@ -3436,6 +3436,7 @@ module.exports = function(app){
       ]
     }
 
+  
   var buscaStop = function(lat, lng){
 
     return new Promise(function(resolve, reject){
@@ -3565,6 +3566,7 @@ module.exports = function(app){
   app.post('/get_keepers', (req, res) => {
 
 
+
     
   })
 
@@ -3586,7 +3588,12 @@ module.exports = function(app){
         _endereco = _endereco.toUpperCase()
 
         if(_endereco == endereco){
-          res.send(temp)
+
+          var _temp = {
+            data:[temp]
+          }
+
+          res.send(_temp)
         }
 
       }
