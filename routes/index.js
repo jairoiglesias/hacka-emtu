@@ -193,7 +193,7 @@ module.exports = function(app){
 
         _endereco = _endereco.toUpperCase()
 
-        if(_endereco == endereco){
+        if(endereco.indexOf(_endereco) != -1){
 
           _rotas.push(temp)
 
