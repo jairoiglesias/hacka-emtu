@@ -178,6 +178,8 @@ module.exports = function(app){
     endereco = endereco.toUpperCase()
 
     var data = routes.data
+
+    var _rotas = []
     
 
     Object.keys(data).forEach(function(value, index){
@@ -193,17 +195,19 @@ module.exports = function(app){
 
         if(_endereco == endereco){
 
-          var _temp = {
-            data:[temp]
-          }
+          _rotas.push(temp)
 
-          res.send(_temp)
         }
 
       }
       
-
     })
+
+    var _temp = {
+      data:_rotas
+    }
+
+    res.send(_temp)
 
   })
 
