@@ -592,7 +592,7 @@ var routes = {
             "type": "bicycle",
             "pois": [{
                 "type": "keeper",
-                "name": "keeper",
+                "name": "keeper-in",
                 "point": {
                     "latitude": -22.8217565,
                     "longitude": -47.0842213
@@ -2780,14 +2780,14 @@ var routes = {
             "type": "bicycle",
             "pois": [{
                 "type": "keeper",
-                "name": "Work",
+                "name": "keeper-off",
                 "point": {
                     "latitude": -22.8175769,
                     "longitude": -47.0886465
                 }
             }, {
                 "type": "keeper",
-                "name": "Bus Station",
+                "name": "Work",
                 "point": {
                     "latitude": -22.8156576,
                     "longitude": -47.0899862
