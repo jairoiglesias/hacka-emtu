@@ -21,8 +21,8 @@ var routes = {
             }],
             "points": [
                 {
-                    lng: -47.0741274,
-                    lat: -22.8235233,
+                    longitude: -47.0741274,
+                    latitude: -22.8235233,
                     type: "waypoint",
                     polyline: "~uhjChdi~GTVHJjA~AhA`BHHHFHDJDL@l@F",
                     dir: "Head <b>southwest</b> on <b>R. Tácito Monteiro de Carvalho e Silva</b> toward <b>Rua Engenheiro Humberto Soares de Camargo</b>",
@@ -37,48 +37,48 @@ var routes = {
                     }
                 },
                 {
-                    lng: -47.07425,
-                    lat: -22.82363
+                    longitude: -47.07425,
+                    latitude: -22.82363
                 },
                 {
-                    lng: -47.07431,
-                    lat: -22.82368
+                    longitude: -47.07431,
+                    latitude: -22.82368
                 },
                 {
-                    lng: -47.07479,
-                    lat: -22.82406
+                    longitude: -47.07479,
+                    latitude: -22.82406
                 },
                 {
-                    lng: -47.07528,
-                    lat: -22.82443
+                    longitude: -47.07528,
+                    latitude: -22.82443
                 },
                 {
-                    lng: -47.07533,
-                    lat: -22.82448
+                    longitude: -47.07533,
+                    latitude: -22.82448
                 },
                 {
-                    lng: -47.07537,
-                    lat: -22.82453
+                    longitude: -47.07537,
+                    latitude: -22.82453
                 },
                 {
-                    lng: -47.0754,
-                    lat: -22.82458
+                    longitude: -47.0754,
+                    latitude: -22.82458
                 },
                 {
-                    lng: -47.07543,
-                    lat: -22.82464
+                    longitude: -47.07543,
+                    latitude: -22.82464
                 },
                 {
-                    lng: -47.07544,
-                    lat: -22.82471
+                    longitude: -47.07544,
+                    latitude: -22.82471
                 },
                 {
-                    lng: -47.07548,
-                    lat: -22.82494
+                    longitude: -47.07548,
+                    latitude: -22.82494
                 },
                 {
-                    lng: -47.0754755,
-                    lat: -22.8249437,
+                    longitude: -47.0754755,
+                    latitude: -22.8249437,
                     type: "waypoint",
                     step: "turn-right",
                     nextturn: "turn-right",
@@ -93,20 +93,20 @@ var routes = {
                     }
                 },
                 {
-                    lng: -47.07554,
-                    lat: -22.82494
+                    longitude: -47.07554,
+                    latitude: -22.82494
                 },
                 {
-                    lng: -47.07565,
-                    lat: -22.82495
+                    longitude: -47.07565,
+                    latitude: -22.82495
                 },
                 {
-                    lng: -47.07568,
-                    lat: -22.82496
+                    longitude: -47.07568,
+                    latitude: -22.82496
                 },
                 {
-                    lng: -47.0756838,
-                    lat: -22.8249552,
+                    longitude: -47.0756838,
+                    latitude: -22.8249552,
                     type: "waypoint"
                 }
             ]
@@ -2795,8 +2795,8 @@ var routes = {
             }],
             "points": [
                 {
-                    lng: -47.0885629,
-                    lat: -22.8175203,
+                    longitude: -47.0885629,
+                    latitude: -22.8175203,
                     type: "waypoint",
                     polyline: "npgjCn~k~G[TeAr@{@j@{@n@{@p@}@l@_@V",
                     dir: "Head <b>northwest</b> on <b>R. José Martins</b> toward <b>R. Júlia Leite de Barros</b>",
@@ -2811,36 +2811,36 @@ var routes = {
                     }
                 },
                 {
-                    lng: -47.08867,
-                    lat: -22.81738
+                    longitude: -47.08867,
+                    latitude: -22.81738
                 },
                 {
-                    lng: -47.08893,
-                    lat: -22.81703
+                    longitude: -47.08893,
+                    latitude: -22.81703
                 },
                 {
-                    lng: -47.08915,
-                    lat: -22.81673
+                    longitude: -47.08915,
+                    latitude: -22.81673
                 },
                 {
-                    lng: -47.08939,
-                    lat: -22.81643
+                    longitude: -47.08939,
+                    latitude: -22.81643
                 },
                 {
-                    lng: -47.08964,
-                    lat: -22.81613
+                    longitude: -47.08964,
+                    latitude: -22.81613
                 },
                 {
-                    lng: -47.08987,
-                    lat: -22.81582
+                    longitude: -47.08987,
+                    latitude: -22.81582
                 },
                 {
-                    lng: -47.08999,
-                    lat: -22.81566
+                    longitude: -47.08999,
+                    latitude: -22.81566
                 },
                 {
-                    lng: -47.0899911,
-                    lat: -22.8156608,
+                    longitude: -47.0899911,
+                    latitude: -22.8156608,
                     type: "waypoint"
                 }
             ]
