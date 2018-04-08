@@ -152,21 +152,23 @@ module.exports = function(app){
 
 
     var dummy = {
-      "type": "walk",
-      "points": [
-        {
-          "latitude": -22.814465,
-          "longitude": -47.05926
-        },
-        {
-          "latitude": -22.8173196,
-          "longitude": -47.0668999
-        },
-        {
-          "latitude": -22.8144996,
-          "longitude": -47.0590182
-        }
-      ]
+      "data": {
+        "type": "walk",
+        "points": [
+          {
+            "latitude": -22.814465,
+            "longitude": -47.05926
+          },
+          {
+            "latitude": -22.8173196,
+            "longitude": -47.0668999
+          },
+          {
+            "latitude": -22.8144996,
+            "longitude": -47.0590182
+          }
+        ]
+      }
     }
 
     res.send(dummy)
